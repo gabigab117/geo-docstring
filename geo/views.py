@@ -6,7 +6,6 @@ from account.models import CustomUser
 from .utils import localize_users
 
 
-@login_required
 def map_view(request):
     users: QuerySet[CustomUser] = CustomUser.objects.all()
     geo_map = localize_users(users)
