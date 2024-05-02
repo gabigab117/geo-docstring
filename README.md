@@ -1,5 +1,7 @@
 # My Django Geo-location App
 
+To test my project, please go to the following URL: http://127.0.0.1:8000/geo/map/
+
 ## Description
 
 My Django geo-location application is an interactive mapping interface that allows you to visualize the geographical
